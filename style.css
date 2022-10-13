@@ -36,7 +36,8 @@
 
 .sectionTitle {
     font-weight: bold;
-    padding: 50px;
+    padding-top: 70px;
+    padding-bottom: 40px;
     font-size: 40px;
 }
 
@@ -46,4 +47,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+#introductionP {
+    text-align: center;
+}
+
+hr {
+    border-top: dotted 20px #9F8772;
+    margin: 120px 670px;
 }
