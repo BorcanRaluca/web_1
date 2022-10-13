@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*intro section*/
+.introContainer {
+    background: #C8DBBE;
+    height: 800px;
+}
+
+.title {
+    text-align: center;
+    padding: 2%;
+    color: #665A48;
+}
+
+#introTitle {
+    padding-top: 250px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#introSubtitle {
+    font-weight: 500;
+    font-size: 35px;
+}
+
+/*hello section*/
+.helloContainer {
+    background-color: #EDE4E0;
+    height: 700px;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    padding: 50px;
+    font-size: 40px;
+}
+
+#personImg {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
