@@ -53,11 +53,15 @@
 
 #introductionP {
     text-align: center;
+    padding-bottom: 120px;
 }
 
 hr {
     border-top: dotted 20px #9F8772;
-    margin: 120px 670px;
+    margin-top: 20px;
+    margin-right: 670px;
+    margin-left: 670px;
+    display: block;
 }
 
 /*skills section*/
@@ -89,7 +93,6 @@ hr {
     color: #665A48;
     margin: 20px;
     padding-top: 30px;
-    padding-bottom: 10px;
 }
 
 .skillsP {
@@ -99,5 +102,32 @@ hr {
 }
 
 /*contact section*/
+.contactContainer {
+    background-color: #EDE4E0;
+    padding-top: 50px;
+    height: 300px; 
+}
+
+#buttonLink {
+    text-decoration: none;
+}
+
+#button {
+    background-color: #b5c8ab;
+    padding: 20px;
+    border-radius: 50px;
+    height: 20px;
+    width: 150px;
+    margin-left: 44%;
+    color: #665A48;
+    text-align: center;
+    font-size: 20px;
+}
+
+#button:hover {
+    background-color: #1B4D14;
+    color: #EDE4E0;
+    transition: 0.3s;
+}
 
 /*footer*/
