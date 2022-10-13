@@ -8,7 +8,7 @@
 /*intro section*/
 .introContainer {
     background: #C8DBBE;
-    height: 800px;
+    height: 750px;
 }
 
 .title {
@@ -108,7 +108,7 @@ hr {
     height: 300px; 
 }
 
-#buttonLink {
+.link {
     text-decoration: none;
 }
 
@@ -125,9 +125,33 @@ hr {
 }
 
 #button:hover {
-    background-color: #1B4D14;
+    background-color: #8ba27d;
     color: #EDE4E0;
     transition: 0.3s;
 }
 
 /*footer*/
+#footer {
+    height: 200px;
+    background-color: #C8DBBE;
+}
+
+.links {
+    text-align: center;
+}
+
+.footerText {
+    padding: 50px;
+    display: inline-block;
+    color: #9F8772;
+}
+
+.footerText:hover {
+    color: #665A48;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#copyrightText {
+    text-align: center;
+}
