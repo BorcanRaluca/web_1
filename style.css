@@ -36,7 +36,7 @@
 
 .sectionTitle {
     font-weight: bold;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 40px;
     font-size: 40px;
 }
@@ -59,3 +59,45 @@ hr {
     border-top: dotted 20px #9F8772;
     margin: 120px 670px;
 }
+
+/*skills section*/
+.skillsContainer {
+    background-color: #B7C4CF;
+    /* height: 800px; */
+}
+
+.computerImg {
+    width: 200px;
+    /* display: inline-block; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+#reversedImg {
+    transform: scaleX(-1);
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0px 70px;
+}
+
+.subtitle {
+    color: #665A48;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.skillsP {
+    font-weight: 300;
+    text-align: justify;
+    margin: 20px;
+}
+
+/*contact section*/
+
+/*footer*/
